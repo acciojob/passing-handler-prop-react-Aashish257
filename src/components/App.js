@@ -39,7 +39,7 @@ const App = () => {
         ))}
       </div>
 
-      <div className='row' id="children-wrapper">
+      <div className='row' id="children-wrapper" style={{ display: 'flex', gap: '10px', width: 1000, height: 200, scrollSnapPointsX: '0px' }}>
         {
           ["selection1", "selection2", "selection3"].map(key => (
             <Selection key={key} applyColor={applyColor} />
