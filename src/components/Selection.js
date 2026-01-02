@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Selection = ({ applyColor }) => {
-  const [style, setStyle] = useState({ background: '#eee' });
+  const [style, setStyle] = useState({ background: '#3c415e' });
 
   const handleClick = () => {
     applyColor(setStyle);
@@ -10,7 +10,7 @@ const Selection = ({ applyColor }) => {
   return (
     <div
       className="fix-box"
-      style={style }
+      style={style}
       onClick={handleClick}
     >
       Selection
