@@ -10,10 +10,10 @@ const Selection = ({ applyColor }) => {
   return (
     <div
       className="fix-box"
-      style={style}
+      style={style }
       onClick={handleClick}
     >
-      Click Me
+      Selection
     </div>
   );
 };
