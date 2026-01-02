@@ -9,7 +9,7 @@ const Selection = ({ applyColor }) => {
 
   return (
     <div
-      className="selection"
+      className="fix-box"
       style={style}
       onClick={handleClick}
     >
